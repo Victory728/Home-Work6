@@ -1,0 +1,78 @@
+body {
+    
+}
+.form {
+    width: 500px;
+    height: 300px;
+}
+.wrapper {
+    border: #c1eb9f;
+    width: 900px;
+}
+.header {
+    background: #c1eb9f;   
+}
+.header > select {
+    background-color: #c1eb9f;
+}
+.main {
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+}
+.First-Name span::after{
+    color: red;
+    content:"*";
+}
+.Last-Name span::after{
+    color: red;
+    content:"*";
+}
+
+.add {
+    /* overflow: auto;
+    line-height: 1; */
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Work-Phone span::after{
+    color: red;
+    content:"*";
+}
+.Email-Address span::after{
+    color: red;
+    content: "*";
+}
+
+.input-item {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    background: greenyellow;
+    outline: none;
+    border: greenyellow;
+}
+
+.footer{
+    background-color: rgba(190, 190, 190, 0.87);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttom{
+    padding: 5px 0;
+}
+
+.namess{
+    font-size: 15px;
+    padding: 3px 18px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    border: 1px solid green;
+}
